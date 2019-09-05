@@ -55,7 +55,7 @@ export default class Select2 extends Component {
     this.updateValue();
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     this.initialRender = false;
     this.updSelect2(nextProps);
   }
