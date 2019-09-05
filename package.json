@@ -13,6 +13,7 @@
     "watch": "cd examples && webpack --watch",
     "build": "cd examples && webpack -p",
     "compile": "babel -d lib/ src/",
+    "prepare": "npm run build",
     "prepublish": "npm run compile"
   },
   "repository": {
